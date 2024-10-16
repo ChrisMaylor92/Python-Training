@@ -56,7 +56,7 @@ print("-----------------------------------------------------")
 
 
 with open("Chris's file.txt") as chrisfile:
-    contents = myfile.read()
+    contents = chrisfile.read()
     print(contents)
 
 a=open("Chris's file.txt", "w")
@@ -75,7 +75,7 @@ while x < 4:
     a.close()
 
 with open("Chris's file.txt") as chrisfile:
-    contents = myfile.read()
+    contents = chrisfile.read()
     print(contents) 
 
 
